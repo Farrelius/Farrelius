@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="355" viewBox="0 0 620 355">
   <defs>
     <style>text { font-family: 'JetBrains Mono','Fira Code','Courier New',monospace; }</style>
 
@@ -16,10 +16,10 @@
       <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
     </radialGradient>
     <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0d1117"     stop-opacity="1"/>
-      <stop offset="25%"  stop-color="#58a6ff"  stop-opacity="1"/>
-      <stop offset="75%"  stop-color="#58a6ff"  stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0d1117"     stop-opacity="1"/>
+      <stop offset="0%"   stop-color="#0d1117"    stop-opacity="1"/>
+      <stop offset="25%"  stop-color="#58a6ff" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#58a6ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d1117"    stop-opacity="1"/>
     </linearGradient>
     <linearGradient id="divider_grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#21262d" stop-opacity="0"/>
@@ -28,39 +28,39 @@
       <stop offset="100%" stop-color="#21262d" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="card">
-      <rect width="620" height="320" rx="14"/>
+      <rect width="620" height="355" rx="14"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#card)">
     <!-- Background -->
-    <rect width="620" height="320" fill="#0d1117"/>
+    <rect width="620" height="355" fill="#0d1117"/>
 
     <!-- Grid -->
     <g stroke="#161b22" stroke-width="0.5" opacity="0.65">
-      <line x1="0" y1="0" x2="0" y2="320"/>
-      <line x1="28" y1="0" x2="28" y2="320"/>
-      <line x1="56" y1="0" x2="56" y2="320"/>
-      <line x1="84" y1="0" x2="84" y2="320"/>
-      <line x1="112" y1="0" x2="112" y2="320"/>
-      <line x1="140" y1="0" x2="140" y2="320"/>
-      <line x1="168" y1="0" x2="168" y2="320"/>
-      <line x1="196" y1="0" x2="196" y2="320"/>
-      <line x1="224" y1="0" x2="224" y2="320"/>
-      <line x1="252" y1="0" x2="252" y2="320"/>
-      <line x1="280" y1="0" x2="280" y2="320"/>
-      <line x1="308" y1="0" x2="308" y2="320"/>
-      <line x1="336" y1="0" x2="336" y2="320"/>
-      <line x1="364" y1="0" x2="364" y2="320"/>
-      <line x1="392" y1="0" x2="392" y2="320"/>
-      <line x1="420" y1="0" x2="420" y2="320"/>
-      <line x1="448" y1="0" x2="448" y2="320"/>
-      <line x1="476" y1="0" x2="476" y2="320"/>
-      <line x1="504" y1="0" x2="504" y2="320"/>
-      <line x1="532" y1="0" x2="532" y2="320"/>
-      <line x1="560" y1="0" x2="560" y2="320"/>
-      <line x1="588" y1="0" x2="588" y2="320"/>
-      <line x1="616" y1="0" x2="616" y2="320"/>
+      <line x1="0" y1="0" x2="0" y2="355"/>
+      <line x1="28" y1="0" x2="28" y2="355"/>
+      <line x1="56" y1="0" x2="56" y2="355"/>
+      <line x1="84" y1="0" x2="84" y2="355"/>
+      <line x1="112" y1="0" x2="112" y2="355"/>
+      <line x1="140" y1="0" x2="140" y2="355"/>
+      <line x1="168" y1="0" x2="168" y2="355"/>
+      <line x1="196" y1="0" x2="196" y2="355"/>
+      <line x1="224" y1="0" x2="224" y2="355"/>
+      <line x1="252" y1="0" x2="252" y2="355"/>
+      <line x1="280" y1="0" x2="280" y2="355"/>
+      <line x1="308" y1="0" x2="308" y2="355"/>
+      <line x1="336" y1="0" x2="336" y2="355"/>
+      <line x1="364" y1="0" x2="364" y2="355"/>
+      <line x1="392" y1="0" x2="392" y2="355"/>
+      <line x1="420" y1="0" x2="420" y2="355"/>
+      <line x1="448" y1="0" x2="448" y2="355"/>
+      <line x1="476" y1="0" x2="476" y2="355"/>
+      <line x1="504" y1="0" x2="504" y2="355"/>
+      <line x1="532" y1="0" x2="532" y2="355"/>
+      <line x1="560" y1="0" x2="560" y2="355"/>
+      <line x1="588" y1="0" x2="588" y2="355"/>
+      <line x1="616" y1="0" x2="616" y2="355"/>
       <line x1="0" y1="0" x2="620" y2="0"/>
       <line x1="0" y1="28" x2="620" y2="28"/>
       <line x1="0" y1="56" x2="620" y2="56"/>
@@ -73,77 +73,79 @@
       <line x1="0" y1="252" x2="620" y2="252"/>
       <line x1="0" y1="280" x2="620" y2="280"/>
       <line x1="0" y1="308" x2="620" y2="308"/>
+      <line x1="0" y1="336" x2="620" y2="336"/>
     </g>
 
-    <!-- Glows -->
-    <rect width="620" height="320" fill="url(#glow_tl)"/>
-    <rect width="620" height="320" fill="url(#glow_br)"/>
-    <rect width="620" height="320" fill="url(#vignette)"/>
+    <!-- Atmospheric glows -->
+    <rect width="620" height="355" fill="url(#glow_tl)"/>
+    <rect width="620" height="355" fill="url(#glow_br)"/>
+    <rect width="620" height="355" fill="url(#vignette)"/>
 
-    <!-- Border -->
-    <rect width="620" height="320" rx="14"
+    <!-- Card border -->
+    <rect width="620" height="355" rx="14"
           fill="none" stroke="#21262d" stroke-width="1"/>
 
-    <!-- Shimmer line at top -->
-    <rect x="80" y="0" width="460" height="1.2" fill="url(#shimmer)" opacity="0.85"/>
+    <!-- Top shimmer -->
+    <rect x="80" y="0" width="460" height="1.2"
+          fill="url(#shimmer)" opacity="0.85"/>
 
     <!-- Header -->
-    <text x="32" y="34"
+    <text x="32" y="30"
           fill="#58a6ff" font-size="11.5" letter-spacing="4" font-weight="700">
       0x456C72687961
     </text>
-    <text x="32" y="53"
+    <text x="32" y="50"
           fill="#8b949e" font-size="9" letter-spacing="3">
       LANGUAGE · DISTRIBUTION · FARRELIUS
     </text>
 
     <!-- Header rule -->
-    <line x1="32" y1="63" x2="588" y2="63"
+    <line x1="32" y1="71" x2="588" y2="71"
           stroke="url(#divider_grad)" stroke-width="0.8"/>
 
-    <!-- Donut charts -->
+    <!-- ~50px gap here before donuts (cy starts at HEADER_H + 50 + R) -->
     
-    <text x="103.6" y="69.0" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="700" letter-spacing="1">Python</text>
-    <circle cx="103.6" cy="125.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
-    <circle cx="103.6" cy="125.0" r="38.0" fill="none" stroke="#58a6ff" stroke-width="11.0" stroke-dasharray="100.28 138.48" stroke-linecap="round" transform="rotate(-90 103.6 125.0)"/>
-    <text x="103.6" y="126.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">42.0%</text>
-    <circle cx="103.6" cy="177.0" r="2.5" fill="#58a6ff" opacity="0.6"/>
-    <text x="206.8" y="69.0" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700" letter-spacing="1">JavaScript</text>
-    <circle cx="206.8" cy="125.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
-    <circle cx="206.8" cy="125.0" r="38.0" fill="none" stroke="#3fb950" stroke-width="11.0" stroke-dasharray="68.05 170.71" stroke-linecap="round" transform="rotate(-90 206.8 125.0)"/>
-    <text x="206.8" y="126.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">28.5%</text>
-    <circle cx="206.8" cy="177.0" r="2.5" fill="#3fb950" opacity="0.6"/>
-    <text x="310.0" y="69.0" text-anchor="middle" fill="#d2a8ff" font-size="10" font-weight="700" letter-spacing="1">TypeScript</text>
-    <circle cx="310.0" cy="125.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
-    <circle cx="310.0" cy="125.0" r="38.0" fill="none" stroke="#d2a8ff" stroke-width="11.0" stroke-dasharray="36.53 202.23" stroke-linecap="round" transform="rotate(-90 310.0 125.0)"/>
-    <text x="310.0" y="126.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">15.3%</text>
-    <circle cx="310.0" cy="177.0" r="2.5" fill="#d2a8ff" opacity="0.6"/>
-    <text x="413.2" y="69.0" text-anchor="middle" fill="#ffa657" font-size="10" font-weight="700" letter-spacing="1">PHP</text>
-    <circle cx="413.2" cy="125.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
-    <circle cx="413.2" cy="125.0" r="38.0" fill="none" stroke="#ffa657" stroke-width="11.0" stroke-dasharray="21.97 216.80" stroke-linecap="round" transform="rotate(-90 413.2 125.0)"/>
-    <text x="413.2" y="126.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">9.2%</text>
-    <circle cx="413.2" cy="177.0" r="2.5" fill="#ffa657" opacity="0.6"/>
-    <text x="516.4" y="69.0" text-anchor="middle" fill="#ff7b72" font-size="10" font-weight="700" letter-spacing="1">Dart</text>
-    <circle cx="516.4" cy="125.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
-    <circle cx="516.4" cy="125.0" r="38.0" fill="none" stroke="#ff7b72" stroke-width="11.0" stroke-dasharray="11.94 226.82" stroke-linecap="round" transform="rotate(-90 516.4 125.0)"/>
-    <text x="516.4" y="126.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">5.0%</text>
-    <circle cx="516.4" cy="177.0" r="2.5" fill="#ff7b72" opacity="0.6"/>
+    <text x="103.6" y="113.0" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="700" letter-spacing="1">Python</text>
+    <circle cx="103.6" cy="167.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
+    <circle cx="103.6" cy="167.0" r="38.0" fill="none" stroke="#58a6ff" stroke-width="11.0" stroke-dasharray="100.28 138.48" stroke-linecap="round" transform="rotate(-90 103.6 167.0)"/>
+    <text x="103.6" y="168.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">42.0%</text>
+    <circle cx="103.6" cy="218.0" r="2.5" fill="#58a6ff" opacity="0.55"/>
+    <text x="206.8" y="113.0" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="700" letter-spacing="1">JavaScript</text>
+    <circle cx="206.8" cy="167.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
+    <circle cx="206.8" cy="167.0" r="38.0" fill="none" stroke="#3fb950" stroke-width="11.0" stroke-dasharray="68.05 170.71" stroke-linecap="round" transform="rotate(-90 206.8 167.0)"/>
+    <text x="206.8" y="168.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">28.5%</text>
+    <circle cx="206.8" cy="218.0" r="2.5" fill="#3fb950" opacity="0.55"/>
+    <text x="310.0" y="113.0" text-anchor="middle" fill="#d2a8ff" font-size="10" font-weight="700" letter-spacing="1">TypeScript</text>
+    <circle cx="310.0" cy="167.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
+    <circle cx="310.0" cy="167.0" r="38.0" fill="none" stroke="#d2a8ff" stroke-width="11.0" stroke-dasharray="36.53 202.23" stroke-linecap="round" transform="rotate(-90 310.0 167.0)"/>
+    <text x="310.0" y="168.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">15.3%</text>
+    <circle cx="310.0" cy="218.0" r="2.5" fill="#d2a8ff" opacity="0.55"/>
+    <text x="413.2" y="113.0" text-anchor="middle" fill="#ffa657" font-size="10" font-weight="700" letter-spacing="1">PHP</text>
+    <circle cx="413.2" cy="167.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
+    <circle cx="413.2" cy="167.0" r="38.0" fill="none" stroke="#ffa657" stroke-width="11.0" stroke-dasharray="21.97 216.80" stroke-linecap="round" transform="rotate(-90 413.2 167.0)"/>
+    <text x="413.2" y="168.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">9.2%</text>
+    <circle cx="413.2" cy="218.0" r="2.5" fill="#ffa657" opacity="0.55"/>
+    <text x="516.4" y="113.0" text-anchor="middle" fill="#ff7b72" font-size="10" font-weight="700" letter-spacing="1">Dart</text>
+    <circle cx="516.4" cy="167.0" r="38.0" fill="none" stroke="#1c2128" stroke-width="11.0"/>
+    <circle cx="516.4" cy="167.0" r="38.0" fill="none" stroke="#ff7b72" stroke-width="11.0" stroke-dasharray="11.94 226.82" stroke-linecap="round" transform="rotate(-90 516.4 167.0)"/>
+    <text x="516.4" y="168.0" text-anchor="middle" dominant-baseline="middle" fill="#c9d1d9" font-size="10.5" font-weight="700">5.0%</text>
+    <circle cx="516.4" cy="218.0" r="2.5" fill="#ff7b72" opacity="0.55"/>
 
     <!-- Section divider -->
-    <line x1="32" y1="230" x2="588" y2="230"
+    <line x1="32" y1="275" x2="588" y2="275"
           stroke="url(#divider_grad)" stroke-width="0.8"/>
 
-    <!-- Stats row -->
+    <!-- Commit-relevant stats -->
     
-    <text x="155.0" y="262.0" text-anchor="middle" fill="#58a6ff" font-size="20" font-weight="700">—</text>
-    <text x="155.0" y="285.0" text-anchor="middle" fill="#8b949e" font-size="9" letter-spacing="2.5">REPOS</text>
-    <text x="310.0" y="262.0" text-anchor="middle" fill="#58a6ff" font-size="20" font-weight="700">—</text>
-    <text x="310.0" y="285.0" text-anchor="middle" fill="#8b949e" font-size="9" letter-spacing="2.5">FOLLOWERS</text>
-    <text x="465.0" y="262.0" text-anchor="middle" fill="#58a6ff" font-size="20" font-weight="700">—</text>
-    <text x="465.0" y="285.0" text-anchor="middle" fill="#8b949e" font-size="9" letter-spacing="2.5">FOLLOWING</text>
+    <text x="155.0" y="305.0" text-anchor="middle" fill="#3fb950" font-size="19" font-weight="700">—</text>
+    <text x="155.0" y="327.0" text-anchor="middle" fill="#8b949e" font-size="8.5" letter-spacing="2.5">COMMITS</text>
+    <text x="310.0" y="305.0" text-anchor="middle" fill="#58a6ff" font-size="19" font-weight="700">—</text>
+    <text x="310.0" y="327.0" text-anchor="middle" fill="#8b949e" font-size="8.5" letter-spacing="2.5">STARS</text>
+    <text x="465.0" y="305.0" text-anchor="middle" fill="#58a6ff" font-size="19" font-weight="700">—</text>
+    <text x="465.0" y="327.0" text-anchor="middle" fill="#8b949e" font-size="8.5" letter-spacing="2.5">PEAK·DAY</text>
 
     <!-- Timestamp -->
-    <text x="600" y="309"
+    <text x="600" y="344"
           fill="#30363d" font-size="8" text-anchor="end"
           letter-spacing="1.5" opacity="0.7">AUTO · UPDATED · 12H</text>
   </g>

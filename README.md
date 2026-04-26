@@ -44,10 +44,8 @@ concato   [utility]     Local-first codebase merging for AI context
 
 <div align="center">
 
-[![activity](https://github-readme-activity-graph.vercel.app/graph?username=Farrelius&theme=nord&hide_border=true&bg_color=0d1117&color=3fb950&line=3fb950&point=58a6ff&area=true&area_color=3fb950)](https://github.com/Farrelius)
+[![activity](https://github-readme-activity-graph.vercel.app/graph?username=Farrelius&theme=nord&hide_border=true&bg_color=0d1117&color=3fb950&line=3fb950&point=3fb950&area=true&area_color=3fb950)](https://github.com/Farrelius)
 
-![total commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FFarrelius&query=%24.public_repos&label=public%20repos&color=3fb950&labelColor=0d1117&style=flat-square&logo=github&logoColor=58a6ff)
-![followers](https://img.shields.io/github/followers/Farrelius?label=followers&color=58a6ff&labelColor=0d1117&style=flat-square&logo=github&logoColor=58a6ff)
-![profile views](https://komarev.com/ghpvc/?username=Farrelius&color=3fb950&style=flat-square&label=profile+views)
+[![streak](https://streak-stats.demolab.com?user=Farrelius&theme=transparent&hide_border=true&background=0d1117&ring=58a6ff&fire=3fb950&currStreakLabel=58a6ff&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&stroke=21262d)](https://github.com/Farrelius)
 
 </div>
