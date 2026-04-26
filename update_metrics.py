@@ -25,30 +25,29 @@ def get_top_languages():
 
 def update_readme(top_lang):
     now = datetime.now().strftime("%Y-%m-%d %H:%M WIB")
-    # WAJIB ADA ISINYA:
     start_tag = ""
     end_tag = ""
     
+    if not os.path.exists("README.md"):
+        print("README.md not found!")
+        return
+
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
     if start_tag in content and end_tag in content:
-        try:
-            parts = content.split(start_tag)
-            head = parts[0]
-            tail = parts[1].split(end_tag)[1]
-            
-            new_metrics = f"\n* **Status:** `Operational`\n* **Top Language:** `{top_lang}`\n* **Last Scan:** `{now}`\n"
-            
-            updated_content = head + start_tag + new_metrics + end_tag + tail
-            
-            with open("README.md", "w", encoding="utf-8") as f:
-                f.write(updated_content.strip() + "\n")
-            print("System metrics updated successfully.")
-        except Exception as e:
-            print(f"Error: {e}")
+        # Menggunakan regex agar lebih fleksibel terhadap spasi/line endings
+        import re
+        pattern = rf"{start_tag}.*?{end_tag}"
+        new_content = f"{start_tag}\n* **Status:** `Operational`\n* **Top Language:** `{top_lang}`\n* **Last Scan:** `{now}`\n{end_tag}"
+        
+        updated_content = re.sub(pattern, new_content, content, flags=re.DOTALL)
+        
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(updated_content)
+        print("Success: README content updated locally in runner.")
     else:
-        print("Tags missing in README.md")
+        print(f"Error: Tags not found. Content length: {len(content)}")
 
 if __name__ == "__main__":
     lang = get_top_languages()
