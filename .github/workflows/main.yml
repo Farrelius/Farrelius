@@ -31,11 +31,10 @@ jobs:
         env:
           METRICS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Commit changes
-        run: |
-          git config --global user.name 'Farrelius-Bot'
-          git config --global user.email 'bot@farrelius.com'
-          git add README.md
-          # Biar gak error kalau gak ada perubahan
-          git commit -m "system(metrics): auto-update logic stats" || exit 0
-          git push
+          - name: Commit changes
+          run: |
+            git config --global user.name 'Farrelius-Bot'
+            git config --global user.email 'bot@farrelius.com'
+            git add README.md
+            # Jika tidak ada perubahan, script akan berhenti di sini tanpa error
+            git diff --quiet && git diff --staged --quiet || (git commit -m "system(metrics): auto-update logic stats" && git pull --rebase origin main && git push)
