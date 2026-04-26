@@ -1,0 +1,36 @@
+name: Update Profile Metrics
+
+on:
+  schedule:
+    - cron: '0 * * * *' 
+  push:
+    branches:
+      - main 
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: pip install requests
+        
+      - name: Update README
+        run: python update_metrics.py
+        env:
+          METRICS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit changes
+        run: |
+          git config --global user.name 'Farrelius-Bot'
+          git config --global user.email 'bot@farrelius.com'
+          git add README.md
+          git commit -m "system(metrics): auto-update logic stats" || exit 0
+          git push
