@@ -1,0 +1,43 @@
+name: update-stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate stats.svg & commit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate stats.svg
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python generate_stats.py
+
+      - name: Commit & push changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Enforce LF line endings to avoid mixed-ending noise
+          git add stats.svg README.md
+          git diff --cached --quiet || git commit -m "chore: auto-update stats [skip ci]"
+          git push
