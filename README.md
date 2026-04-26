@@ -1,16 +1,27 @@
-## Hi there 👋
+# 0xAXIOM // [Farrelius]
 
-<!--
-**Farrelius/Farrelius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack developer with a penchant for mathematical modeling, cognitive systems, and minimalist architecture. Currently bridging the gap between vocational technicality and abstract logic. My dream is to become ML Engineer
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### // Core Stack
+* **Languages:** Dart (Flutter), JavaScript (React, ES6+), PHP (Laravel), Python (FastAPI).
+* **Thinking:** Mathematical logic, Indeterminate forms, System Architecture.
+* **Philosophy:** Local-first, Privacy by design, Blueprint aesthetics.
+
+### // Current Works
+* **Elry:** A privacy-centric personality analysis engine (Vercel-hosted).
+* **Concato:** Local-first codebase merging utility for LLM context optimization.
+* **Axiom:** Visual logic sandbox for number decomposition and interactive math.
+
+
+---
+
+### // Technical Metrics
+* **Dev Workflow:** Git-centric, high-context AI prompting, minimalist UI/UX.
+
+### // Connectivity
+* **Status:** Vocational Student (SMK) & Independent Scholar.
+
+---
+*"Deconstructing the undefined until it becomes logic."*
