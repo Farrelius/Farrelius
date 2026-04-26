@@ -1,27 +1,22 @@
-# 0xAXIOM // [Farrelius]
+### C:\Users\Farrelius
 
-Full-stack developer with a penchant for mathematical modeling, cognitive systems, and minimalist architecture. Currently bridging the gap between vocational technicality and abstract logic. My dream is to become ML Engineer
+> **Alias:** `0x456C72687961`
+> **Age:** `00010010`
+> **Focus:** `Mathematical Logic & System Architecture`
 
----
-
-### // Core Stack
-* **Languages:** Dart (Flutter), JavaScript (React, ES6+), PHP (Laravel), Python (FastAPI).
-* **Thinking:** Mathematical logic, Indeterminate forms, System Architecture.
-* **Philosophy:** Local-first, Privacy by design, Blueprint aesthetics.
-
-### // Current Works
-* **Elry:** A privacy-centric personality analysis engine (Vercel-hosted).
-* **Concato:** Local-first codebase merging utility for LLM context optimization.
-* **Axiom:** Visual logic sandbox for number decomposition and interactive math.
-
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Farrelius&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Github Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Farrelius&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="150" />
+</p>
 
 ---
 
-### // Technical Metrics
-* **Dev Workflow:** Git-centric, high-context AI prompting, minimalist UI/UX.
+### // Active Projects
 
-### // Connectivity
-* **Status:** Vocational Student (SMK) & Independent Scholar.
+* **Elry** ↳ `[Production]`
+  > Privacy-focused personality analysis platform.
+  > [**Launch System**](https://elry-test.vercel.app) • `Personality-as-a-Service`
 
----
-*"Deconstructing the undefined until it becomes logic."*
+* **Concato** ↳ `[Utility]`
+  > Local-first codebase merging utility for optimized AI context.
+  > [**Access Tool**](https://concato.vercel.app) • `Privacy-by-Design`
