@@ -20,31 +20,29 @@ def get_top_languages():
                 languages[lang] = languages.get(lang, 0) + 1
         
         sorted_langs = sorted(languages.items(), key=lambda x: x[1], reverse=True)
-        return sorted_langs[0][0] if sorted_langs else "None Detected"
-    except Exception as e:
-        return f"Error: {str(e)}"
+        return sorted_langs[0][0] if sorted_langs else "Logic/Math"
+    except:
+        return "Unknown"
 
 def update_readme(top_lang):
     now = datetime.now().strftime("%Y-%m-%d %H:%M WIB")
     
-    # Template baru
+    # Template yang akan dimasukkan
     new_metrics = f"\n* **Status:** `Active`\n* **Top Language:** `{top_lang}`\n* **Last Scan:** `{now}`\n"
-
-    if not os.path.exists("README.md"):
-        print("README.md not found!")
-        return
 
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
-    if "" in content and "" in content:
-        updated_content = re.sub(r".*?", 
-                                 new_metrics, content, flags=re.DOTALL)
+    # Proteksi: Jika tag ditemukan, ganti isinya. 
+    # Jika tidak ditemukan, jangan lakukan apa-apa (mencegah duplikasi).
+    pattern = r".*?"
+    if re.search(pattern, content, flags=re.DOTALL):
+        updated_content = re.sub(pattern, new_metrics, content, flags=re.DOTALL)
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(updated_content)
-        print("README updated successfully!")
+        print("Success: Metrics updated.")
     else:
-        print("Tags not found! No changes made.")
+        print("Error: Tags not found. No changes made to prevent corruption.")
 
 if __name__ == "__main__":
     lang = get_top_languages()
