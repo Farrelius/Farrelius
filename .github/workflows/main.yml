@@ -1,4 +1,4 @@
-\name: Update Profile Metrics
+name: Update Profile Metrics
 
 on:
   schedule:
