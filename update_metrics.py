@@ -7,36 +7,44 @@ USERNAME = "Farrelius"
 TOKEN = os.getenv("METRICS_TOKEN")
 
 def get_top_languages():
-    url = f"https://api.github.com/users/{USERNAME}/repos"
-    headers = {"Authorization": f"token {TOKEN}"}
-    repos = requests.get(url, headers=headers).json()
-    
-    languages = {}
-    for repo in repos:
-        if repo['language']:
-            lang = repo['language']
-            languages[lang] = languages.get(lang, 0) + 1
-            
-    sorted_langs = sorted(languages.items(), key=lambda x: x[1], reverse=True)
-    top_lang = sorted_langs[0][0] if sorted_langs else "Unknown"
-    return top_lang
+    try:
+        url = f"https://api.github.com/users/{USERNAME}/repos"
+        headers = {"Authorization": f"token {TOKEN}"}
+        response = requests.get(url, headers=headers)
+        repos = response.json()
+        
+        languages = {}
+        for repo in repos:
+            if isinstance(repo, dict) and repo.get('language'):
+                lang = repo['language']
+                languages[lang] = languages.get(lang, 0) + 1
+        
+        sorted_langs = sorted(languages.items(), key=lambda x: x[1], reverse=True)
+        return sorted_langs[0][0] if sorted_langs else "None Detected"
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 def update_readme(top_lang):
     now = datetime.now().strftime("%Y-%m-%d %H:%M WIB")
     
-    new_metrics = f"""* **Status:** `Active`
-* **Top Language:** `{top_lang}`
-* **Last Scan:** `{now}`
-"""
+    # Template baru
+    new_metrics = f"\n* **Status:** `Active`\n* **Top Language:** `{top_lang}`\n* **Last Scan:** `{now}`\n"
 
-    with open("README.md", "r") as f:
+    if not os.path.exists("README.md"):
+        print("README.md not found!")
+        return
+
+    with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
-    updated_content = re.sub(r".*?", 
-                             new_metrics, content, flags=re.DOTALL)
-
-    with open("README.md", "w") as f:
-        f.write(updated_content)
+    if "" in content and "" in content:
+        updated_content = re.sub(r".*?", 
+                                 new_metrics, content, flags=re.DOTALL)
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(updated_content)
+        print("README updated successfully!")
+    else:
+        print("Tags not found! No changes made.")
 
 if __name__ == "__main__":
     lang = get_top_languages()
