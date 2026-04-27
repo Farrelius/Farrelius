@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="72" viewBox="0 0 520 72">
+  <defs>
+    <radialGradient id="hdr_glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="520" height="72" fill="#0d1117" rx="10"/>
+  <rect width="520" height="72" fill="url(#hdr_glow)"/>
+  <!-- shimmer baseline -->
+  <line x1="60" y1="66" x2="460" y2="66"
+        stroke="#21262d" stroke-width="0.7"/>
+  
+  <text x="91.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.000;0.069;0.138;0.208;0.277;0.346;0.415;0.485;0.554;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="L;b;q;5;N;>;o;@;0" keyTimes="0.000;0.069;0.138;0.208;0.277;0.346;0.415;0.485;0.554"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    0
+  </text>
+  <text x="104.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.023;0.092;0.162;0.231;0.300;0.369;0.438;0.508;0.577;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="v;c;>;E;9;k;9;i;x" keyTimes="0.023;0.092;0.162;0.231;0.300;0.369;0.438;0.508;0.577"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    x
+  </text>
+  <text x="117.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.046;0.115;0.185;0.254;0.323;0.392;0.462;0.531;0.600;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="a;a;O;f;R;%;t;8;4" keyTimes="0.046;0.115;0.185;0.254;0.323;0.392;0.462;0.531;0.600"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    4
+  </text>
+  <text x="130.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.069;0.138;0.208;0.277;0.346;0.415;0.485;0.554;0.623;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="1;b;M;C;c;w;g;0;5" keyTimes="0.069;0.138;0.208;0.277;0.346;0.415;0.485;0.554;0.623"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    5
+  </text>
+  <text x="143.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.092;0.162;0.231;0.300;0.369;0.438;0.508;0.577;0.646;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="F;y;j;j;2;@;Z;/;6" keyTimes="0.092;0.162;0.231;0.300;0.369;0.438;0.508;0.577;0.646"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    6
+  </text>
+  <text x="156.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.115;0.185;0.254;0.323;0.392;0.462;0.531;0.600;0.669;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="T;%;y;P;9;m;2;K;C" keyTimes="0.115;0.185;0.254;0.323;0.392;0.462;0.531;0.600;0.669"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    C
+  </text>
+  <text x="169.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.138;0.208;0.277;0.346;0.415;0.485;0.554;0.623;0.692;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="#;g;&;k;R;H;C;7;7" keyTimes="0.138;0.208;0.277;0.346;0.415;0.485;0.554;0.623;0.692"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    7
+  </text>
+  <text x="182.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.162;0.231;0.300;0.369;0.438;0.508;0.577;0.646;0.715;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values=">;Z;Z;#;b;M;u;Y;2" keyTimes="0.162;0.231;0.300;0.369;0.438;0.508;0.577;0.646;0.715"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    2
+  </text>
+  <text x="195.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.185;0.254;0.323;0.392;0.462;0.531;0.600;0.669;0.738;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="*;Y;!;l;K;H;8;q;6" keyTimes="0.185;0.254;0.323;0.392;0.462;0.531;0.600;0.669;0.738"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    6
+  </text>
+  <text x="208.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.208;0.277;0.346;0.415;0.485;0.554;0.623;0.692;0.762;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="t;%;r;J;s;C;k;L;8" keyTimes="0.208;0.277;0.346;0.415;0.485;0.554;0.623;0.692;0.762"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    8
+  </text>
+  <text x="221.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.231;0.300;0.369;0.438;0.508;0.577;0.646;0.715;0.785;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="U;@;D;\;@;V;7;R;7" keyTimes="0.231;0.300;0.369;0.438;0.508;0.577;0.646;0.715;0.785"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    7
+  </text>
+  <text x="234.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.254;0.323;0.392;0.462;0.531;0.600;0.669;0.738;0.808;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="1;Q;K;o;8;r;N;H;9" keyTimes="0.254;0.323;0.392;0.462;0.531;0.600;0.669;0.738;0.808"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    9
+  </text>
+  <text x="247.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.277;0.346;0.415;0.485;0.554;0.623;0.692;0.762;0.831;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="e;I;7;x;t;E;6;u;6" keyTimes="0.277;0.346;0.415;0.485;0.554;0.623;0.692;0.762;0.831"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    6
+  </text>
+  <text x="260.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.300;0.369;0.438;0.508;0.577;0.646;0.715;0.785;0.854;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="n;1;!;0;C;d;e;U;1" keyTimes="0.300;0.369;0.438;0.508;0.577;0.646;0.715;0.785;0.854"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    1
+  </text>
+  <text x="273.0" y="40" fill="#8b949e" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle"> </text>
+  <text x="286.0" y="40" fill="#8b949e" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">—</text>
+  <text x="299.0" y="40" fill="#8b949e" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle"> </text>
+  <text x="312.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.392;0.462;0.531;0.600;0.669;0.738;0.808;0.877;0.946;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="T;%;d;C;D;W;@;P;F" keyTimes="0.392;0.462;0.531;0.600;0.669;0.738;0.808;0.877;0.946"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    F
+  </text>
+  <text x="325.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.415;0.485;0.554;0.623;0.692;0.762;0.831;0.900;0.969;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="2;p;H;y;G;H;j;h;a" keyTimes="0.415;0.485;0.554;0.623;0.692;0.762;0.831;0.900;0.969"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    a
+  </text>
+  <text x="338.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.438;0.508;0.577;0.646;0.715;0.785;0.854;0.923;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="K;F;x;F;!;r;0;m;r" keyTimes="0.438;0.508;0.577;0.646;0.715;0.785;0.854;0.923;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    r
+  </text>
+  <text x="351.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.462;0.531;0.600;0.669;0.738;0.808;0.877;0.946;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="M;/;4;j;?;d;6;!;r" keyTimes="0.462;0.531;0.600;0.669;0.738;0.808;0.877;0.946;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    r
+  </text>
+  <text x="364.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.485;0.554;0.623;0.692;0.762;0.831;0.900;0.969;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="w;p;T;h;n;H;g;f;e" keyTimes="0.485;0.554;0.623;0.692;0.762;0.831;0.900;0.969;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    e
+  </text>
+  <text x="377.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.508;0.577;0.646;0.715;0.785;0.854;0.923;0.992;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="J;0;X;p;2;<;G;i;l" keyTimes="0.508;0.577;0.646;0.715;0.785;0.854;0.923;0.992;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    l
+  </text>
+  <text x="390.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.531;0.600;0.669;0.738;0.808;0.877;0.946;1.015;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="5;V;J;u;A;v;u;4;i" keyTimes="0.531;0.600;0.669;0.738;0.808;0.877;0.946;1.015;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    i
+  </text>
+  <text x="403.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.554;0.623;0.692;0.762;0.831;0.900;0.969;1.038;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values=">;k;>;R;4;B;?;G;u" keyTimes="0.554;0.623;0.692;0.762;0.831;0.900;0.969;1.038;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    u
+  </text>
+  <text x="416.0" y="40" font-size="17" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" text-anchor="middle">
+    <animate attributeName="fill" values="#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#58a6ff;#c9d1d9" keyTimes="0.577;0.646;0.715;0.785;0.854;0.923;0.992;1.062;0.980;1"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"/>
+    <animate attributeName="textContent" values="@;S;5;P;6;&;2;W;s" keyTimes="0.577;0.646;0.715;0.785;0.854;0.923;0.992;1.062;0.980"
+             dur="2.6s" begin="0s" fill="freeze" repeatCount="1"
+             calcMode="discrete"/>
+    s
+  </text>
+</svg>

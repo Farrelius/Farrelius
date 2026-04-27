@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   generate:
-    name: Generate stats.svg & commit
+    name: Generate SVGs & commit
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate stats.svg
+      - name: Generate SVGs (stats, top-repo, header)
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python generate_stats.py
@@ -38,6 +38,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Enforce LF line endings to avoid mixed-ending noise
-          git add stats.svg README.md
+          git add stats.svg top-repo.svg header.svg README.md
           git diff --cached --quiet || git commit -m "chore: auto-update stats [skip ci]"
           git push
